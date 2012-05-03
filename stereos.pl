@@ -30,7 +30,7 @@ unless (-e $video_2) {
 
 # Retrieve options.
 my $stutter;
-my $rate = 1;
+my $rate = 4;
 my $output_file = "wiggle.mp4";
 GetOptions("rate=i" => \$rate,
            "stutter"  => \$stutter,

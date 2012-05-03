@@ -26,7 +26,7 @@ following line would write a third video file in our current directory named wig
 
      stereos left.mp4 right.mp4
 
-The output wiggle.mp4 file will oscillate between the two mp4ies, playing the first 4 frames of left.mp4 then the second 4 frames of right.mp4 then the third 4 frames of left.mp4 and so on. If we want it to wiggle every 8 frames instead, we can add the rate option:
+The output wiggle.mp4 file will oscillate between the two mp4's, playing the first 4 frames of left.mp4 then the second 4 frames of right.mp4 then the third 4 frames of left.mp4 and so on. If we want it to wiggle every 8 frames instead, we can add the rate option:
 
      stereos left.mp4 right.mp4 -r 8
 
@@ -44,7 +44,7 @@ The resulting video in this case will seem to stutter every time it wiggles.
 
 
 ###Cached frames
-In order to interleave 2 videos, Stereos first breaks the videos into frames. These frames are kept in a directory which is placed in the one where Stereos was called. Because interleaving videos often requires a bit of trial and error and splitting up frames can be a lengthu process, Stereos will keep the frames around and use them on the next run if it sees that they are there. Go ahead and toss them away after you're done.
+In order to interleave 2 videos, Stereos first breaks the videos into frames. These frames are kept in a directory which is placed in the one where Stereos was called. Because interleaving videos often requires a bit of trial and error and splitting up frames can be a lengthy process, Stereos will keep the frames around and use them on the next run if it sees that they are there. Go ahead and toss them away after you're done.
 
 ###Goodbye
 
